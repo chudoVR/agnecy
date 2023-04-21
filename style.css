@@ -902,9 +902,8 @@ input {
   }
 
   .employees__block {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
-    justify-content: center;
+    padding: 0px 35px;
+    justify-content: space-between;
     gap: 17px;
   }
 
@@ -1039,9 +1038,6 @@ input {
   }
 
   .employees__block {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
-    justify-content: center;
     gap: 17px;
   }
 
@@ -1330,11 +1326,7 @@ input {
   }
 
   .employees__block {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
-    justify-content: center;
     gap: 10px;
-    justify-items: center;
   }
 
   .network {
