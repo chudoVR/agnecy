@@ -368,6 +368,10 @@ input {
   color: #000000;
 }
 
+.navigation__item:hover {
+  color: #FF2D2D;
+}
+
 .navigation__item_active {
   color: #FF2D2D;
 }
@@ -454,6 +458,10 @@ input {
   line-height: 24px;
   letter-spacing: 0.9px;
   color: #000000;
+}
+
+.network__list:hover {
+  color: #FF2D2D;
 }
 
 .employees__block {
