@@ -575,7 +575,7 @@ input {
 
 /* content - Get in touch */
 .content_contact {
-  padding: 104px calc(50% - 1234px / 2) 107px;
+  padding: 104px 0px 107px calc(50% - 1234px / 2);
 }
 
 .message__info {
@@ -674,8 +674,8 @@ input {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  min-width: 23vw;
   padding: 141px 81px;
+  flex-grow: 1;
 }
 
 .contacts {
@@ -720,12 +720,6 @@ input {
 .icons {
   display: flex;
   gap: 18px;
-}
-
-@media (min-width: 1315px) and (max-width: 1420px) {
-  .contact__block {
-    min-width: 21vw;
-  }
 }
 
 @media (min-width: 1024px) and (max-width: 1315px) {
